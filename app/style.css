@@ -23,7 +23,9 @@ input {
 }
 
 button {
-  padding: 10px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  float: right;
   border-radius: 8px;
 }
 
@@ -46,19 +48,44 @@ button {
 
 #count {
   width: 30px;
-  background-color: aliceblue;
 }
 
 /* card design */
 .recipe-card {
+  padding: 10px;
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: auto auto;
   background-color: rgb(207, 118, 118);
+  border-radius: 8px;
 }
-/*
+
+@media (max-width: 600px) {
+  .recipe-card {
+    grid-template-columns: auto;
+  }
+}
+
+.imageBox {
+  margin-bottom: 10px;
+  padding: 4px;
+  width: 200px;
+  height: 200px;
+  background-color: #f7e6c4;
+  border-radius: 8px;
+}
+
 .flex-box {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-*/
+
+.flex {
+  display: flex;
+}
+
+.stepsTodo {
+  width: 250px;
+  height: 150px;
+  background-color: #fff4f4;
+}
