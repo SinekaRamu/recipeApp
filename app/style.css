@@ -52,6 +52,7 @@ button {
 
 /* card design */
 .recipe-card {
+  margin-bottom: 20px;
   padding: 10px;
   display: grid;
   grid-template-columns: auto auto;

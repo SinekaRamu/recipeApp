@@ -56,3 +56,7 @@ DeleteBtn.addEventListener("click", function () {
 });
 contentBox.append(headerBox, stepsBox, DeleteBtn);
 ```
+
+## create card using form
+
+added card using form input content and sumbit button
