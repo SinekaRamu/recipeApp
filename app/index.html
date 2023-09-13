@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form id="recipe-Form">
+      <h1>Add Favrouite Recipe</h1>
+      <div class="form-element">
+        <label for="recipeName">Recipe Name : </label>
+        <input
+          id="recipeName"
+          type="text"
+          placeholder="Enter title of the recipe "
+        />
+      </div>
+
+      <div class="form-element">
+        <label for="timeTaken">Preparation Time :</label>
+        <input id="timeTaken" type="text" placeholder="Enter time consumed" />
+      </div>
+
+      <div class="form-element">
+        <label for="stepsTodo">Steps ToDo:</label>
+        <div>
+          <textarea name="Steps" id="stepsTodo" rows="10" cols="30"> </textarea>
+        </div>
+      </div>
+
+      <div class="form-element">
+        <label for="recipeImg">Image of the recipe :</label>
+        <input type="url" placeholder="paste image url" id="recipe-img" />
+      </div>
+
+      <input type="submit" value="add-recipe" id="submitBtn" />
+    </form>
+    <div id="card-count">
+      <p>
+        Total Recipes :
+        <span id="count"></span>
+      </p>
+    </div>
+    <!-- recipe Card -->
+    <div id="display-card"></div>
+  </body>
+</html>

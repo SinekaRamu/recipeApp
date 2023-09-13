@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "poppins", sans-serif;
+}
+
+body {
+  margin: 30px;
+  background-color: #fff4f4;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* html form styling */
+.form-body {
+  padding: 30px;
+  background-color: #f7e6c4;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.form-element {
+  margin-bottom: 20px;
+}
+
+#card-count {
+  text-align: right;
+}
+
+#count {
+  width: 30px;
+  background-color: aliceblue;
+}
+
+/* card design 
+.recipe-card {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+*/
