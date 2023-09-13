@@ -39,7 +39,8 @@ button {
   margin-bottom: 20px;
 }
 
-#card-count {
+.total-recipe {
+  margin-bottom: 20px;
   text-align: right;
 }
 
@@ -48,12 +49,13 @@ button {
   background-color: aliceblue;
 }
 
-/* card design 
+/* card design */
 .recipe-card {
-    display: grid;
-    grid-template-columns: 300px auto;
+  display: grid;
+  grid-template-columns: 300px auto;
+  background-color: rgb(207, 118, 118);
 }
-
+/*
 .flex-box {
     display: flex;
     justify-content: space-around;

@@ -8,7 +8,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <form id="recipe-Form">
+    <form id="recipe-form">
       <h1>Add Favrouite Recipe</h1>
       <div class="form-element">
         <label for="recipeName">Recipe Name : </label>
@@ -16,29 +16,41 @@
           id="recipeName"
           type="text"
           placeholder="Enter title of the recipe "
+          required
         />
       </div>
 
       <div class="form-element">
         <label for="timeTaken">Preparation Time :</label>
-        <input id="timeTaken" type="text" placeholder="Enter time consumed" />
+        <input
+          id="timeTaken"
+          type="text"
+          placeholder="Enter time consumed"
+          required
+        />
       </div>
 
       <div class="form-element">
         <label for="stepsTodo">Steps ToDo:</label>
         <div>
-          <textarea name="Steps" id="stepsTodo" rows="10" cols="30"> </textarea>
+          <textarea name="Steps" id="stepsTodo" rows="10" cols="30" required>
+          </textarea>
         </div>
       </div>
 
       <div class="form-element">
         <label for="recipeImg">Image of the recipe :</label>
-        <input type="url" placeholder="paste image url" id="recipe-img" />
+        <input
+          type="url"
+          placeholder="paste image url"
+          id="recipeImg"
+          required
+        />
       </div>
 
       <input type="submit" value="add-recipe" id="submitBtn" />
     </form>
-    <div id="card-count">
+    <div class="total-recipe">
       <p>
         Total Recipes :
         <span id="count"></span>
